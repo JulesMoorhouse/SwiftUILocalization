@@ -8,9 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    var name = "John"
+    var favouriteNumber = 16;
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("hello-title")
+                .padding()
+            
+            Text("title-name \(name)")
+                .padding()
+            
+            Text("favourite-number \(favouriteNumber)")
+                .padding()
+        }
     }
 }
 

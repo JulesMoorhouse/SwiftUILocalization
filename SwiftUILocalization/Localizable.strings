@@ -5,3 +5,10 @@
   Created by Julian Moorhouse on 22/05/2021.
   
 */
+
+"hello-title" = "Hello, World!";
+
+"title-name %@" = "My name is %@";
+
+"favourite-number %lld" = "My favourite number is %lld";
+
