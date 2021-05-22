@@ -2,6 +2,7 @@
 
 Example created from this [tutorial](https://phrase.com/blog/posts/swiftui-tutorial-localization/).
 
+- [ContentView.swift](SwiftUILocalization/ContentView.swift)
 - [Localizable.strings](SwiftUILocalization/de.lproj/Localizable.strings)
 - [Plurals.stringsdict](SwiftUILocalization/de.lproj/Plurals.stringsdict)
 
