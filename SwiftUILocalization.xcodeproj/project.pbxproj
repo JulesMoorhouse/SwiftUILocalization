@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883BE7D32659099C002BE1CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 883BE7D52659099C002BE1CF /* Localizable.strings */; };
+		883BE7D926590A0A002BE1CF /* Plurals.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 883BE7DB26590A0A002BE1CF /* Plurals.stringsdict */; };
 		88CAEFCE2658EEEC00A2543F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAEFCD2658EEEC00A2543F /* AppDelegate.swift */; };
 		88CAEFD02658EEEC00A2543F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAEFCF2658EEEC00A2543F /* SceneDelegate.swift */; };
 		88CAEFD22658EEEC00A2543F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAEFD12658EEEC00A2543F /* ContentView.swift */; };
 		88CAEFD42658EEEE00A2543F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFD32658EEEE00A2543F /* Assets.xcassets */; };
 		88CAEFD72658EEEE00A2543F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFD62658EEEE00A2543F /* Preview Assets.xcassets */; };
 		88CAEFDA2658EEEE00A2543F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFD82658EEEE00A2543F /* LaunchScreen.storyboard */; };
-		88CAEFEB2658F03500A2543F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFEA2658F03500A2543F /* Localizable.strings */; };
-		88CAEFEE2658F2EB00A2543F /* Plurals.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFED2658F2EB00A2543F /* Plurals.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		883BE7D42659099C002BE1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		883BE7D7265909B1002BE1CF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		883BE7D8265909B7002BE1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		883BE7DA26590A0A002BE1CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
+		883BE7DD26590A0E002BE1CF /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = fr; path = fr.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
+		883BE7DE26590A0F002BE1CF /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = de; path = de.lproj/Plurals.stringsdict; sourceTree = "<group>"; };
 		88CAEFCA2658EEEC00A2543F /* SwiftUILocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88CAEFCD2658EEEC00A2543F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88CAEFCF2658EEEC00A2543F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,8 +34,6 @@
 		88CAEFDB2658EEEE00A2543F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88CAEFE32658EF9700A2543F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		88CAEFE42658EFA300A2543F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		88CAEFEA2658F03500A2543F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		88CAEFED2658F2EB00A2543F /* Plurals.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Plurals.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +73,8 @@
 				88CAEFD82658EEEE00A2543F /* LaunchScreen.storyboard */,
 				88CAEFDB2658EEEE00A2543F /* Info.plist */,
 				88CAEFD52658EEEE00A2543F /* Preview Content */,
-				88CAEFEA2658F03500A2543F /* Localizable.strings */,
-				88CAEFED2658F2EB00A2543F /* Plurals.stringsdict */,
+				883BE7D52659099C002BE1CF /* Localizable.strings */,
+				883BE7DB26590A0A002BE1CF /* Plurals.stringsdict */,
 			);
 			path = SwiftUILocalization;
 			sourceTree = "<group>";
@@ -142,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88CAEFEE2658F2EB00A2543F /* Plurals.stringsdict in Resources */,
+				883BE7D926590A0A002BE1CF /* Plurals.stringsdict in Resources */,
 				88CAEFDA2658EEEE00A2543F /* LaunchScreen.storyboard in Resources */,
-				88CAEFEB2658F03500A2543F /* Localizable.strings in Resources */,
+				883BE7D32659099C002BE1CF /* Localizable.strings in Resources */,
 				88CAEFD72658EEEE00A2543F /* Preview Assets.xcassets in Resources */,
 				88CAEFD42658EEEE00A2543F /* Assets.xcassets in Resources */,
 			);
@@ -166,6 +170,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		883BE7D52659099C002BE1CF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883BE7D42659099C002BE1CF /* en */,
+				883BE7D7265909B1002BE1CF /* fr */,
+				883BE7D8265909B7002BE1CF /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		883BE7DB26590A0A002BE1CF /* Plurals.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883BE7DA26590A0A002BE1CF /* en */,
+				883BE7DD26590A0E002BE1CF /* fr */,
+				883BE7DE26590A0F002BE1CF /* de */,
+			);
+			name = Plurals.stringsdict;
+			sourceTree = "<group>";
+		};
 		88CAEFD82658EEEE00A2543F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

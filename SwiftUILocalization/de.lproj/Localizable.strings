@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SwiftUILocalization
+
+  Created by Julian Moorhouse on 22/05/2021.
+  
+*/
+
+"hello-title" = "Hallo Welt!";
+
+"title-name %@" = "Mein Name ist %@";
+
+"favourite-number %lld" = "Meine Lieblingszahl ist 33 %lld";
+
