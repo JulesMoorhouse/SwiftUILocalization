@@ -11,6 +11,8 @@ struct ContentView: View {
     var name = "John"
     var favouriteNumber = 16;
     var appleCount = 2
+    var mangoCount = 1
+    var orangeCount = 3
 
     var body: some View {
         VStack {
@@ -23,8 +25,8 @@ struct ContentView: View {
             Text("favourite-number \(favouriteNumber)")
                 .padding()
             
-            Text("fruit-count \(appleCount)", tableName: "Plurals")
-                .padding()
+            Text("fruit-count \(appleCount) \(mangoCount) \(orangeCount)", tableName: "Plurals")
+
         }
     }
 }
