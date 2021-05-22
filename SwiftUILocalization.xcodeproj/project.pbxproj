@@ -14,6 +14,7 @@
 		88CAEFD72658EEEE00A2543F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFD62658EEEE00A2543F /* Preview Assets.xcassets */; };
 		88CAEFDA2658EEEE00A2543F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFD82658EEEE00A2543F /* LaunchScreen.storyboard */; };
 		88CAEFEB2658F03500A2543F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFEA2658F03500A2543F /* Localizable.strings */; };
+		88CAEFEE2658F2EB00A2543F /* Plurals.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 88CAEFED2658F2EB00A2543F /* Plurals.stringsdict */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		88CAEFE32658EF9700A2543F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		88CAEFE42658EFA300A2543F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		88CAEFEA2658F03500A2543F /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		88CAEFED2658F2EB00A2543F /* Plurals.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Plurals.stringsdict; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				88CAEFDB2658EEEE00A2543F /* Info.plist */,
 				88CAEFD52658EEEE00A2543F /* Preview Content */,
 				88CAEFEA2658F03500A2543F /* Localizable.strings */,
+				88CAEFED2658F2EB00A2543F /* Plurals.stringsdict */,
 			);
 			path = SwiftUILocalization;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CAEFEE2658F2EB00A2543F /* Plurals.stringsdict in Resources */,
 				88CAEFDA2658EEEE00A2543F /* LaunchScreen.storyboard in Resources */,
 				88CAEFEB2658F03500A2543F /* Localizable.strings in Resources */,
 				88CAEFD72658EEEE00A2543F /* Preview Assets.xcassets in Resources */,
