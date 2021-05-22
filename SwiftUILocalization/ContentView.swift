@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var name = "John"
     var favouriteNumber = 16;
-    
+    var appleCount = 2
+
     var body: some View {
         VStack {
             Text("hello-title")
@@ -20,6 +21,9 @@ struct ContentView: View {
                 .padding()
             
             Text("favourite-number \(favouriteNumber)")
+                .padding()
+            
+            Text("fruit-count \(appleCount)", tableName: "Plurals")
                 .padding()
         }
     }
